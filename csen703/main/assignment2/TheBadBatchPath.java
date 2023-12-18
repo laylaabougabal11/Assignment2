@@ -74,7 +74,7 @@ public class TheBadBatchPath {
     
     public static void main(String[] args) {
         int[] fuel = { 2, 3, 1, 1, 4 };
-        System.out.println("Minimum number of landings: " + TatooineToNabooDP(fuel));
-        System.out.println("Path: " + TatooineToNabooPath(fuel));
+        System.out.println(TatooineToNabooDP(fuel));
+        System.out.println(TatooineToNabooPath(fuel));
     }
 }
