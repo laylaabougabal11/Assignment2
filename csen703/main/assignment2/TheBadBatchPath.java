@@ -51,6 +51,7 @@ public class TheBadBatchPath {
             path.add(x);
             x = previous[x];
         } while (x != 0);
+        
         path.add(0);
         reversePath(path);
         return path;
