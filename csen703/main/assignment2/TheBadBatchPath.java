@@ -52,9 +52,7 @@ public class TheBadBatchPath {
             x = previous[x];
         } while (x != 0);
         path.add(0);
-
         reversePath(path);
-
         return path;
     }
 
