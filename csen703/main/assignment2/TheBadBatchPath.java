@@ -4,7 +4,7 @@ import java.util.ArrayList;
 
 public class TheBadBatchPath {
 
-    private static int[] previous;
+    public static int[] previous;
 
 
     //name check like assignment doc
@@ -58,7 +58,7 @@ public class TheBadBatchPath {
     }
 
     // eftekri tgrabi te3meleeha mn 8eir el helper
-    private static void reversePath(ArrayList<Integer> list) {
+    public static void reversePath(ArrayList<Integer> list) {
         int first = 0;
         int last = list.size() - 1;
     
